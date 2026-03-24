@@ -86,3 +86,12 @@ Tests:       24 passed, 24 total
 - ai.test.js - AI API 集成
 - templates.test.js - 模板管理
 - utils.test.js - 工具函数
+
+---
+
+## 版本历史
+
+| 版本 | 日期 | 更新内容 |
+|------|------|----------|
+| 1.1 | 2026-03-24 | 新增 `superpowers:brainstorming` 技能记录 |
+| 1.0 | 2026-03-24 | 初始版本，使用 TDD 开发 |

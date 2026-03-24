@@ -138,17 +138,59 @@ tests/            # 测试文件
 icons/           # 图标资源
 ```
 
-## 更新日志
+## 版本历史
+
+### v1.1 (2026-03-24) - 文档完善
+
+**本次更新：**
+- ✅ 添加 SKILLS.md - 开发技能记录
+- ✅ 添加 BRAINSTORMING.md - 头脑风暴记录
+- ✅ 添加 CHANGELOG.md - 版本变更记录
+- ✅ 更新 README.md - 完善项目文档
+
+**使用技能：**
+- `superpowers:brainstorming` - 需求探索与设计
+- `superpowers:test-driven-development` - TDD 测试驱动开发
+- `superpowers:using-superpowers` - 技能系统基础
+
+---
 
 ### v1.0.0 (2026-03-24) - MVP 发布
 
+**核心功能：**
 - ✅ 评价管理（添加/编辑/删除）
 - ✅ 评价筛选（全部/待回复/已回复/差评）
-- ✅ 回复模板管理
+- ✅ 回复模板管理（5个预设模板 + 自定义）
 - ✅ AI 回复生成（Claude API）
 - ✅ 一键复制功能
 - ✅ 本地数据持久化
-- ✅ 完整的单元测试
+- ✅ 完整的单元测试（24个）
+
+**使用技能：**
+- `superpowers:test-driven-development` - TDD 测试驱动开发
+
+---
+
+## 项目文件
+
+```
+review-assistant/
+├── manifest.json       # Chrome Extension Manifest V3
+├── popup.html         # 主界面结构
+├── popup.css          # 样式（Flat Design, Dark Theme）
+├── popup.js           # UI 逻辑
+├── src/               # 源代码模块
+│   ├── storage.js     # 数据存储
+│   ├── ai.js          # Claude API 集成
+│   ├── templates.js   # 模板管理
+│   └── utils.js       # 工具函数
+├── tests/             # Jest 单元测试
+├── icons/             # 图标资源
+├── README.md          # 项目说明
+├── CHANGELOG.md       # 版本变更记录
+├── SKILLS.md          # 开发技能记录
+└── BRAINSTORMING.md   # 头脑风暴记录
+```
 
 ## License
 
