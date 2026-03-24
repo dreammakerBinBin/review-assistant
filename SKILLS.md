@@ -2,7 +2,17 @@
 
 ## 本次开发使用的技能 (Skills)
 
-### 1. superpowers:test-driven-development
+### 1. superpowers:brainstorming
+**用途**: 头脑风暴，需求探索与设计
+**使用时机**: 项目开始前，明确用户意图、需求和设计方案
+
+**关键规则**:
+- 探索用户意图和真实需求
+- 分析问题本质而非表面
+- 在实现前先达成共识
+- 产出：设计规范文档
+
+### 2. superpowers:test-driven-development
 **用途**: TDD 测试驱动开发
 **使用时机**: 实现 src/ 模块前先编写测试，遵循 Red-Green-Refactor 流程
 
@@ -12,7 +22,7 @@
 - 重构优化 (REFACTOR)
 - 不写代码不写测试，直到有失败的测试
 
-### 2. superpowers:using-superpowers
+### 3. superpowers:using-superpowers
 **用途**: 技能系统使用指南
 **说明**: 每次会话开始时加载，确保使用正确的技能工作流
 
